@@ -27,7 +27,7 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173" ,"https://9sr1h2n2-5173.inc1.devtunnels.ms"],  # Allow all origins
+    allow_origins=["http://localhost:5173" ,"https://resume-chatbot-frontend.onrender.com"],  # Allow all origins
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
